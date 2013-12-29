@@ -20,9 +20,15 @@ your PYTHONPATH environment variable.
 
     $ export PYTHONPATH=$PYTHONPATH:$(pwd)
 
+Clone the dat.wallet repo and change directory
 
+    $ git clone https://github.com/darkwallet/dat.wallet.git
+    $ cd dat.wallet
 
 # Usage
     kivy main.py -- "correct horse battery staple"
+or
+    python main.py -- "correct horse battery staple"
+in linux
 
 Where "correct horse battery staple" is your seed phrase. Note the space between the -- and the seed phrase
