@@ -27,7 +27,9 @@ Clone the dat.wallet repo and change directory
 
 # Usage
     kivy main.py -- "correct horse battery staple"
+
 or
+
     python main.py -- "correct horse battery staple"
 in linux
 
